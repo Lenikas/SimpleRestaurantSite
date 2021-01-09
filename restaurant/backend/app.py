@@ -75,13 +75,3 @@ async def get_about_page(request: Request) -> Any:
     return templates.TemplateResponse(
         'about.html', {'request': request}
     )
-
-
-@app.get('/contacts')
-async def get_contact_page(request: Request) -> Any:
-    """
-    Эндпоинт, по которому возвращается страница с контактной информацией.
-    """
-    return templates.TemplateResponse(
-        'contacts.html', {'request': request}
-    )
