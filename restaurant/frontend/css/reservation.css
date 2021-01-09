@@ -1,0 +1,59 @@
+html {
+    color: white;
+    margin: 0;
+    background: url("../images/reservation.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.reservation-form {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.reservation-block {
+    margin: 20px;
+}
+
+.header {
+    font-family: Arial, serif;
+}
+
+.important {
+    color: red;
+}
+
+.pre-input {
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+.input-data {
+    margin: 10px;
+    border-radius: 5px;
+    border: darkgray;
+    opacity: .7;
+    padding: 5px;
+    width: 300px;
+    font-family: Arial, serif;
+    font-weight: bold;
+}
+
+.table {
+    width: 50px;
+}
+
+.button-res {
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 15px;
+    opacity: .7;
+    outline: none;
+}
+
+.button-res:hover {
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+}

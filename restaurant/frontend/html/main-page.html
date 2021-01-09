@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link href="../css/main-page.css" rel="stylesheet" type="text/css">
+    <link href="../css/navbar.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="box">
+    <ul class="list">
+        <li class="item"><a class="item-link" href=http://127.0.0.1:8000/menu> Меню </a></li>
+        <li class="item"><a class="item-link" href=http://127.0.0.1:8000/about> О нас </a></li>
+        <li class="item"><a class="item-link" href=http://127.0.0.1:8000/reservation> Забронировать </a></li>
+    </ul>
+</div>
+<div class="information">
+    <h1 class="welcome"> Добро пожаловать!</h1>
+    <h4 class="about-rest"> Ресторан французской кухни приглашает вас отведать изысканных блюд в этом прекрасном заведении. </h4>
+    <h2 class="reservation-text"> Забронировать столик </h2>
+    <div class="reservation-action">
+        <form action="http://127.0.0.1:8000/reservation" method="get">
+            <input class="button-res" type="submit" value="Перейти к бронированию">
+        </form>
+    </div>
+</div>
+</body>
+</html>

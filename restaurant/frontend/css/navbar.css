@@ -1,0 +1,20 @@
+.box {
+    text-decoration: none;
+}
+
+.list {
+    text-align: center;
+    list-style: none;
+}
+
+.item {
+    display: inline;
+    text-align: center;
+    width: 120px;
+    margin: auto 50px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: white;
+}
